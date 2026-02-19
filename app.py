@@ -17,7 +17,7 @@ st.write("Model trained using manufacturing_data.csv")
 # =====================================================
 
 try:
-    data = pd.read_csv("C:/Users/Personal/Desktop/Capstone p1/Dataset_manufacturing_1000_samples .csv")
+    data = pd.read_csv("manufacturing_data.csv")
 except FileNotFoundError:
     st.error("❌ manufacturing_data.csv not found.")
     st.stop()
